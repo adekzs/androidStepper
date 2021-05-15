@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Lets get started"
+              android:textSize="20dp"
+              android:fontFamily="@font/montserrat_bold"
+              android:textColor="@color/black"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="20dp"/>
+
+          <com.google.android.material.textfield.TextInputLayout
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp">
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="First name"
+                  android:textSize="15dp"
+                  android:paddingLeft="10dp"/>
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp">
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="last name"
+                  android:inputType="textPersonName"
+                  android:textSize="15dp"
+                  android:paddingLeft="10dp"/>
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp">
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="Email Address"
+                  android:inputType="textEmailAddress"
+                  android:textSize="15dp"
+                  android:paddingLeft="10dp"/>
+          </com.google.android.material.textfield.TextInputLayout>
+          <com.google.android.material.textfield.TextInputLayout
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="10dp"
+
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp">
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="Redsidential Address"
+                  android:inputType="text"
+                  android:textSize="15dp"
+
+                  android:paddingLeft="10dp"/>
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="20dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp">
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="NIN"
+                  android:inputType="text"
+                  android:textSize="15dp"
+
+                  android:paddingLeft="10dp"/>
+          </com.google.android.material.textfield.TextInputLayout>
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Select state and local government"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/montserrat_bold"
+            />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="State"
+              android:fontFamily="@font/montserrat_regular"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/black"
+              android:layout_marginTop="20dp"/>
+
+
+
+          <Spinner
+              android:id="@+id/stateSpinner"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginRight="20dp"
+              />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="LGA"
+              android:fontFamily="@font/montserrat_regular"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/black"
+              android:layout_marginTop="20dp"/>
+
+
+
+          <Spinner
+             android:id="@+id/lgaSpinner"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="20dp"
+              android:layout_marginRight="20dp"
+              />
+
+
+
+
+      </LinearLayout>
+  </ScrollView>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RegistrationFormat</string>
+
+
+
+    <string-array name="array_technology">
+        <item>Mobile App development</item>
+        <item>Website Design and Development</item>
+        <item>Cybersecurity</item>
+        <item>Networking</item>
+        <item>Desktop App</item>
+        <item>WordPress and CMS</item>
+        <item>Shopify</item>
+        <item>Embedded Systems and IoT</item>
+        <item>IT Consultancy</item>
+    </string-array>
+
+
+    <string-array name="real_estate">
+        <item>laundry</item>
+        <item>Cook</item>
+        <item>Gardener</item>
+        <item>Security</item>
+        <item>Maid</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+    </string-array>
+
+</resources>
