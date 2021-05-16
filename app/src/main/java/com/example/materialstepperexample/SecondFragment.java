@@ -48,13 +48,6 @@ public class SecondFragment extends Fragment implements BlockingStep {
     TextView heading;;
     String[] listItem;
 
-
-
-
-
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

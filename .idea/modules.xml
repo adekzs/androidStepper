@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-Material-Stepper-Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-Material-Stepper-Example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Material-Stepper-Example.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Material-Stepper-Example.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidStepper.iml" filepath="$PROJECT_DIR$/.idea/modules/androidStepper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/androidStepper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/androidStepper.app.iml" />
     </modules>
   </component>
 </project>

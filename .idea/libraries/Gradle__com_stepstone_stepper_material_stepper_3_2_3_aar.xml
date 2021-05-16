@@ -2,11 +2,15 @@
   <library name="Gradle: com.stepstone.stepper:material-stepper:3.2.3@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ae41665d9f8805e382ef6098113982/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20fc38d581cf0e7b1644ec097793f1bc/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ae41665d9f8805e382ef6098113982/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ae41665d9f8805e382ef6098113982/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ae41665d9f8805e382ef6098113982/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20fc38d581cf0e7b1644ec097793f1bc/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20fc38d581cf0e7b1644ec097793f1bc/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20fc38d581cf0e7b1644ec097793f1bc/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
